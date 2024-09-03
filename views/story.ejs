@@ -1,0 +1,14 @@
+<% include ./partials/header.ejs %>
+<div class="w-full min-h-screen bg-zinc-900 text-white py-5">
+  <div class="story-container px-4">
+    <div class="flex justify-between items-center">
+      <img src="/images/uploads/<%= story.user.picture %>" alt="<%= story.user.username %>">
+      <h2><%= story.user.username %></h2>
+      <span><%= formatRelativeTime(new Date(story.createdAt)) %></span>
+    </div>
+    <div class="story-content mt-4">
+      <img src="/images/uploads/<%= story.image %>" alt="Story image" class="w-full h-auto object-cover">
+    </div>
+  </div>
+</div>
+<% include ./partials/footer.ejs %>
