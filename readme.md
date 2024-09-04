@@ -1,7 +1,7 @@
-1. Project Overview
+1. Project Overview: 
 SmartMedia is a full-stack social media application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. The application allows users to share photos, follow other users, like and comment on posts, and engage in social networking activities similar to Instagram.
 
-2. Features
+2. Features: 
 User authentication (Sign up, Log in, Log out)
 Profile management
 Post creation with image upload
@@ -11,7 +11,7 @@ User feed displaying posts from followed users
 Search functionality for users and posts
 Real-time notifications
 
-4. Technology Stack
+4. Technology Stack: 
 Frontend: React.js, Redux, Axios
 Backend: Node.js, Express.js
 Database: MongoDB, Mongoose
@@ -20,14 +20,14 @@ Storage: Cloudinary (for image uploads)
 Deployment: Heroku, Netlify
 Testing: Jest, Supertest
 
-6. Architecture
+6. Architecture: 
 Provide a high-level overview of the application's architecture, including:
 
 Frontend: Components, State Management, Routing.
 Backend: RESTful API structure, Middleware, Controllers, Routes.
 Database: Schema design, Relationships.
 
-5. Installation and Setup
+5. Installation and Setup: 
 Prerequisites
 Node.js
 MongoDB
@@ -59,7 +59,7 @@ bash
 Copy code
 npm run dev
 
-6. API Documentation
+6. API Documentation: 
 Authentication
 POST /api/auth/signup - Register a new user
 POST /api/auth/login - Log in an existing user
@@ -74,7 +74,7 @@ GET /api/posts/:id - Get a post by ID
 PUT /api/posts/:id - Like/Unlike a post
 POST /api/posts/:id/comment - Comment on a post
 
-8. Database Schema
+7. Database Schema: 
 Outline the MongoDB collections and schemas:
 
 User Schema
@@ -104,33 +104,33 @@ const PostSchema = new mongoose.Schema({
   createdBy: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
 });
 
-8. Front-end Implementation
+8. Front-end Implementation: 
 Discuss how the front-end is structured, including:
 
 Components: Overview of main components (e.g., Navbar, Post, Feed, Profile).
 State Management: Explanation of Redux store, actions, and reducers.
 Routing: Details on React Router setup for different views.
 
-9. Back-end Implementation
+9. Back-end Implementation: 
 Describe the back-end structure, including:
 
 Controllers: How each controller handles requests.
 Middleware: Authentication, error handling.
 Routes: Explanation of main routes and their purposes.
 
-10. Testing
+10. Testing: 
 Unit Tests: Details on unit tests for both front-end and back-end.
 Integration Tests: Explanation of how different modules are tested together.
 Tools: Overview of testing tools used (e.g., Jest, Supertest).
 
-11. Deployment
+11. Deployment: 
 Explain the deployment process:
 
 Frontend: How to deploy the React app on Netlify.
 Backend: How to deploy the Node.js/Express API on Heroku.
 Environment Variables: Configuration of environment variables for production.
 
-12. Future Enhancements
+12. Future Enhancements: 
 List potential future features and improvements:
 
 Direct messaging between users
@@ -138,7 +138,7 @@ Story feature similar to Instagram
 Push notifications
 Enhanced search capabilities
 
-13. Contributing
+13. Contributing: 
 Explain how others can contribute to the project:
 
 Fork the repository
@@ -147,22 +147,22 @@ Commit your changes (git commit -m 'Add new feature')
 Push to the branch (git push origin feature-branch)
 Create a pull request
 
-14. License
+14. License: 
 Include details of the project's license.
-1. Login screen
+1. Login screen: 
 ![p1](https://github.com/user-attachments/assets/68cb9bdb-c7b4-485a-b62b-248de86968bd)
    
-2. Registered Profile
+2. Registered Profile: 
 ![p2](https://github.com/user-attachments/assets/e9c8cb0a-d9ae-46ef-9dc0-b8b09a8d55c5)
 
-3. Search User
+3. Search User: 
 ![p3](https://github.com/user-attachments/assets/a1c42d3d-5de2-4526-a1ff-196433d508d6)
 
-4. Searched User Profile
+4. Searched User Profile: 
 ![p4](https://github.com/user-attachments/assets/69400a37-1607-4da8-afb5-fa77cb5a4dbb)
 
-5. Post of registered User
+5. Post of registered User: 
 ![p5](https://github.com/user-attachments/assets/5b2ca1ca-11e4-4717-bb98-2a4b097a76fe)
 
-6. Profile after post
+6. Profile after post: 
 ![p6](https://github.com/user-attachments/assets/a382ee2d-7fd6-4f67-a30e-863ca613a896)
