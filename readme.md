@@ -37,7 +37,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/instaclone.git
+git clone (https://github.com/ThakurPrad33p/smartmedia.git)
 cd instaclone
 Install dependencies for both client and server:
 
